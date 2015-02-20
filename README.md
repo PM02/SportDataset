@@ -8,16 +8,27 @@ It also extracts the measurements on the mean & standard deviation for each meas
 
 -------------
 
-### CodeBook (**SportDataset.txt**):
-Rows: 10299, Columns: 563
-* _LabelCode_: refers to the number of the activity (1 to 6).
-* _LabelName_: refers to the name of the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
-* _Subject_: refers to the ID of the volunteer performing the activity.
-* _{All remaining columns}_: the mean or standard deviation for a specific measurement used in the test.
+### CodeBook (*SportDataset.txt*):
+Rows: **10299**, Columns: **563**<br>
+Each Row is one observation, Columns are the measurements obtained through the test. 
+* **LabelCode**: Refer to the number of the activity (1 to 6).
+* **LabelName**: Refer to the name of the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+* **Subject**: Refer to the ID of the volunteer performing the activity.
+* [**All remaining columns**]: Show the mean or standard deviation for a specific measurement used in the test.
 
 -------------
 
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+### How to run_analysis.R:
+Notice: The R script requires *dplyr* library. Step by Step comments are available within the file,
+* Download the data from the link provided below (*end of document*) & copy **run_analysis.R** into the main working directory.
+* Sit back and relax.
+* Output will be named *SportDataset.txt*, within the same working directory.
+
+-------------
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities 
+
+(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
 The original data can be obtained from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -27,4 +38,4 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 -------------
 
-PM02 - February 2015
+> Author: **PM02** - February 2015
