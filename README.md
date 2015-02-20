@@ -10,10 +10,10 @@ It also extracts the measurements on the mean & standard deviation for each meas
 
 ### CodeBook (**SportDataset.txt**):
 Rows: 10299, Columns: 563
-* LabelCode: refers to the number of the activity (1 to 6).
-* LabelName: refers to the name of the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
-* Subject: refers to the ID of the volunteer performing the activity.
-* {All remaining columns}: the mean or standard deviation for a specific measurement used in the test.
+* _LabelCode_: refers to the number of the activity (1 to 6).
+* _LabelName_: refers to the name of the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+* _Subject_: refers to the ID of the volunteer performing the activity.
+* _{All remaining columns}_: the mean or standard deviation for a specific measurement used in the test.
 
 -------------
 
