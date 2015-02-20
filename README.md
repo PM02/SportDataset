@@ -1,10 +1,15 @@
 ### Human Activity Recognition Using Smartphones Dataset
 
-This Repo contains an R script (**run_analysis.R**) on how raw data were cleaned and exported as a dataset.
+-------------
 
+This Repo contains an R script (**run_analysis.R**) on how raw data were cleaned and exported as a dataset.
 The final dataset (**SportDataset.txt**) is the result of the merge of "test" & "train" data.
 
 It also extracts the measurements on the mean & standard deviation for each measuremeant, discarding the rest of the data.
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities 
+
+(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
 -------------
 
@@ -25,10 +30,6 @@ Notice: The R script requires *dplyr* library. Step by Step comments are availab
 * Output will be named *SportDataset.txt*, within the same working directory.
 
 -------------
-
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities 
-
-(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
 The original data can be obtained from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
