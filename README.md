@@ -28,9 +28,9 @@ Each Row is one observation, Columns are the measurements obtained through the t
 Notice: The R script requires *dplyr* library. 
 **Step by Step comments are available within the file**
 * Download the data from the link provided below (*end of document*) & copy **run_analysis.R** into the main working directory.
-* Directory path e.g. '*./main/run_analysis.R*' - '*./main/features.txt*' - '*./main/train/...*' - '*./main/test/...*' - ...etc
+* Directory path e.g. `./main/run_analysis.R` - `./main/features.txt` - `./main/train/...` - `./main/test/...` - ...etc
 * Sit back and relax.
-* Output will be named *SportDataset.txt*, within the same working directory.
+* Output will be named **SportDataset.txt**, within the same working directory.
 
 -------------
 
