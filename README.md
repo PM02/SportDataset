@@ -19,8 +19,8 @@ Each Row is one observation, Columns are the measurements obtained through the t
 * **Subject**: Refers to the ID of the volunteer performing the activity.
 * [**All remaining columns**]: Show the mean or standard deviation for a specific measurement used in the test.
 
-> To read dataset:
-> read.table("./SportDataset.txt", header = TRUE)
+- To read dataset:
+ `read.table("./SportDataset.txt", header = TRUE)`
 
 -------------
 
