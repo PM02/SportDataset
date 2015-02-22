@@ -11,14 +11,6 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 -------------
 
-### CodeBook (*SportDataset.txt*):
-Rows: **10299**, Columns: **563**<br>
-Each Row is one observation, Columns are the measurements obtained through the test. 
-* **LabelCode**: Refers to the number of the activity (1 to 6).
-* **LabelName**: Refers to the name of the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
-* **Subject**: Refers to the ID of the volunteer performing the activity.
-* [**All remaining columns**]: Show the mean or standard deviation for a specific measurement used in the test.
-
 - To read dataset:
  `read.table("./SportDataset.txt", header = TRUE)`
 

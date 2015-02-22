@@ -54,5 +54,9 @@ finale <- merge(alabels,clean_data, by.y = "Label", by.x="V1")
 ## Rename Column names V1, V2 to more descriptive names
 finale <- rename(finale, LabelName = V2, LabelCode = V1)
 
+tidy <- aggregate(finale, by=list(Activity = finale$LabelName, Subject=finale$Subject), mean)
+# Clean again
+clean_tidy <- tidy[,-c(3,4,5)]
+
 # Output to file, without row names.
-write.table(finale, file = "./SportDataset.txt",row.name=FALSE)
+write.table(clean_tidy, file = "./SportDataset.txt",row.name=FALSE)
