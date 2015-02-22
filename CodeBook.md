@@ -10,7 +10,7 @@ Each Row is one observation, Columns are the measurements obtained through the t
 - "tBodyAcc.mean.Z"- 
 - "tBodyAcc.std.X"
 - "tBodyAcc.std.Y"
-- "tBodyAcc.std.Z"
+-- "tBodyAcc.std.Z"
 - "tGravityAcc.mean.X"   "tGravityAcc.mean.Y"  
 [11] "tGravityAcc.mean.Z"   "tGravityAcc.std.X"    "tGravityAcc.std.Y"    "tGravityAcc.std.Z"    "tBodyAccJerk.mean.X" 
 [16] "tBodyAccJerk.mean.Y"  "tBodyAccJerk.mean.Z"  "tBodyAccJerk.std.X"   "tBodyAccJerk.std.Y"   "tBodyAccJerk.std.Z"  

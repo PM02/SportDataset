@@ -11,11 +11,6 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 -------------
 
-- To read dataset:
- `read.table("./SportDataset.txt", header = TRUE)`
-
--------------
-
 ### How to run_analysis.R:
 Notice: The R script requires *dplyr* library. 
 **Step by Step comments are available within the file**
@@ -23,6 +18,9 @@ Notice: The R script requires *dplyr* library.
 * Directory path e.g. `./main/run_analysis.R` - `./main/features.txt` - `./main/train/...` - `./main/test/...` - ...etc
 * Sit back and relax.
 * Output will be named **SportDataset.txt**, within the same working directory.
+
+- To read dataset:
+ `read.table("./SportDataset.txt", header = TRUE)`
 
 -------------
 
