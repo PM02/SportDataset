@@ -19,7 +19,7 @@ Notice: The R script requires *dplyr* library.
 * Sit back and relax.
 * Output will be named **SportDataset.txt**, within the same working directory.
 
-- To read dataset:
+> To read dataset:
  `read.table("./SportDataset.txt", header = TRUE)`
 
 -------------
