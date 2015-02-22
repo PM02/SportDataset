@@ -20,15 +20,15 @@ Each Row is one observation, Columns are the measurements obtained through the t
 
 * `Activity`: Refers to the name of the activity performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 * `Subject`: Refers to the ID of the volunteer performing the activity.
-* [**All remaining columns**]: Show the mean or standard deviation for a specific measurement used in the test , each for X,Y & Z axes.
-1- "tBodyAcc.mean.X"<br><br>
+* [**All remaining columns**]: Show the mean or standard deviation for a specific measurement used in the test , each for X,Y & Z axes.<br>
+1- "tBodyAcc.mean.X"<br>
 2- "tBodyAcc.mean.Y"<br>
 3- "tBodyAcc.mean.Z"<br> 
 4- "tBodyAcc.std.X"<br>
 5- "tBodyAcc.std.Y"<br>
 6- "tBodyAcc.std.Z"<br>
 7- "tGravityAcc.mean.X"<br>
-8- "tGravityAcc.mean.Y"<br>  
+8- "tGravityAcc.mean.Y"<br>
 9- "tGravityAcc.mean.Z"<br>
 10- "tGravityAcc.std.X"<br>
 11- "tGravityAcc.std.Y"<br>
@@ -38,7 +38,7 @@ Each Row is one observation, Columns are the measurements obtained through the t
 15- "tBodyAccJerk.mean.Z"<br>
 16- "tBodyAccJerk.std.X"<br>
 17- "tBodyAccJerk.std.Y"<br>
-18- "tBodyAccJerk.std.Z"<br>  
+18- "tBodyAccJerk.std.Z"<br>
 19- "tBodyGyro.mean.X"<br>
 20- "tBodyGyro.mean.Y"<br>
 21- "tBodyGyro.mean.Z"<br>
@@ -63,7 +63,7 @@ Each Row is one observation, Columns are the measurements obtained through the t
 40- "fBodyAccJerk.std.X"<br>
 41- "fBodyAccJerk.std.Y"<br>
 42- "fBodyAccJerk.std.Z"<br>
-43- "fBodyGyro.mean.X"<br>    
+43- "fBodyGyro.mean.X"<br>
 44- "fBodyGyro.mean.Y"<br>
 45- "fBodyGyro.mean.Z"<br>
 46- "fBodyGyro.std.X"<br>
